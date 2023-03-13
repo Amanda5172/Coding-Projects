@@ -48,8 +48,8 @@ def Solve():
                 for number in range(1,10): #1 to 9
                     if Possible(row,column,number): #returned True
                         board[row][column]=number #sub in that number
-                        Solve() #
-                        board[row][column]=0 #if stuck, erase the number
+                        Solve() #check if can solve next empty box
+                        board[row][column]=0 #if stuck, erase the previous number
 
                 return
     DisplayBoard()
