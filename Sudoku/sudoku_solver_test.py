@@ -1,4 +1,4 @@
-#no user input, makes sure the code works
+#without user input
 
 #board as 2D array
 board = [[0,0,0,5,0,0,3,0,0],
