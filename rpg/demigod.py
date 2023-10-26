@@ -1,8 +1,6 @@
 import random
 import time
 import threading
-import signal
-import os
 
 class monster:
     def __init__(self):
